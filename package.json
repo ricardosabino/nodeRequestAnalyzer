@@ -1,0 +1,22 @@
+{
+  "name": "noderequestanalyzer",
+  "version": "1.0.0",
+  "description": "See requests sent to this server",
+  "main": "index.ts",
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "dev": "nodemon",
+    "start": "npm run build && node build/index.js"
+  },
+  "author": "Ricardo Sabino",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "nodemon": "^2.0.18",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}
